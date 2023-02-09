@@ -1,7 +1,7 @@
 schemaVersion: 2.2.0
 metadata:
   name: service-registry
-  version: 2.2.4
+  version: 2.4.x
   provider: Red Hat
   icon: https://design.jboss.org/quarkus/logo/final/SVG/quarkus_icon_rgb_default.svg
   displayName: Service Registry
