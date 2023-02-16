@@ -28,3 +28,10 @@ commands:
   - id: build-image
     apply:
       component: image-build
+  - id: deploy
+    composite:
+      commands:
+        - build-image
+      group:
+        kind: deploy
+        isDefault: true
